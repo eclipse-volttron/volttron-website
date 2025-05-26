@@ -19,7 +19,5 @@ env:
 jobs:
   deploy-pre-release:
     uses: eclipse-volttron/github-tooling/.github/workflows/deploy-pre-release.yml@main
-    secrets: 
-      #inherit
-      git-token: ${{ secrets.GITHUB_TOKEN }}
+    secrets:
       pypi-token: ${{ secrets.PYPI_TOKEN }}
