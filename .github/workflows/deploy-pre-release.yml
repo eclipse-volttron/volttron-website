@@ -6,6 +6,9 @@ on:
     - cron: '0 12 * * 5' # Original schedule (e.g., Friday at 12 PM UTC)
   workflow_dispatch: # Allows manual triggering of the workflow
 
+permissions:
+  contents: write 
+  
 defaults:
   run:
     shell: bash
