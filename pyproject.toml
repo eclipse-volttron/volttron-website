@@ -1,6 +1,6 @@
 [project]
 name = "volttron-website"
-version = "0.1.1a1"
+version = "0.1.1a2"
 description = "A test repository for github actions"
 authors = [
     {name = "C. Allwardt",email = "3979063+craig8@users.noreply.github.com"}
